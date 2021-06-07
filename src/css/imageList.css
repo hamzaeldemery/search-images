@@ -1,0 +1,9 @@
+.image-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 0 10px;
+}
+
+.image-display img {
+    width: 150px;
+}
